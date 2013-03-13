@@ -1,7 +1,7 @@
 {
     "name": "polianych/media-net-api",
     "description": "MediaNet API support for ZF2 application",
-    "homepage": "https://github.com/MurgaNikolay/SmartyModule",
+    "homepage": "https://github.com/polianych/MediaNetApi",
     "type": "library",
     "license": "MIT",
     "keywords": [
