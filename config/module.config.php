@@ -9,7 +9,7 @@
 return array(
     'service_manager' => array(
         'factories' => array(
-            'MediaNetApi' => 'TuneHog\MediaNetApi\MediaNetApiServiceFactory',
+            'MediaNetApi' => 'MediaNetApi\MediaNetApiServiceFactory',
         )
     ),
 );

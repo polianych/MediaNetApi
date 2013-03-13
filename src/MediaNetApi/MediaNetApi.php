@@ -11,8 +11,8 @@ use Zend\Http\Response;
 use Zend\Http\Client\Adapter\Curl;
 use Zend\Stdlib\Parameters;
 use Zend\Json\Json;
-use TuneHog\MediaNetApi\MediaNetOptions;
-use TuneHog\MediaNetApi\ResponseData;
+use MediaNetApi\MediaNetOptions;
+use MediaNetApi\ResponseData;
 
 class MediaNetApi {
 

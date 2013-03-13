@@ -1,6 +1,6 @@
 <?php
 
-namespace TuneHog\MediaNetApi\Request;
+namespace MediaNetApi\Request;
 
 /**
  * @author Alex Poliakov <poliakov.o@gmail.com>
