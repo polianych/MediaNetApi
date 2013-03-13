@@ -3,16 +3,14 @@ MediaNetApi
 MediaNet API support for ZF2 application
 Introduction
 ------------
-This module currently supports few methods of MediaNet API (October 2011).
-
-Please see: [API Docs](http://www.mndigital.com/MN_Open_API/MN_Open_API_Implementation_Guide_PartTwo.pdf)
-
-This module currently supports the following calls with API version 95.0:
+This module currently supports the following calls with API version [2011-10-07]
 * track.get
 * track.getLocations
 * search.getGeoLocation
 * purchase.useBalance
 * Radio.GetMediaLocation
+
+Please see: [API Docs](http://www.mndigital.com/MN_Open_API/MN_Open_API_Implementation_Guide_PartTwo.pdf)
 
 Requirements
 ------------
