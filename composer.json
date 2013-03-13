@@ -1,0 +1,32 @@
+{
+    "name": "polianych/media-net-api",
+    "description": "MediaNet API support for ZF2 application",
+    "homepage": "https://github.com/MurgaNikolay/SmartyModule",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "zf2",
+        "zend",
+        "module",
+        "medianet",
+        "api"
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+    },
+    "authors": [
+        {
+            "name": "Alex Poliakov",
+            "email": "poliakov.o@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MediaNetApi": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
