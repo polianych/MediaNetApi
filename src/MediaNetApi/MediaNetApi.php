@@ -119,7 +119,7 @@ class MediaNetApi {
 
     /**
      * @param \Zend\Http\Response $response
-     * @return \MediaNetApi\Response
+     * @return \MediaNetApi\ResponseData
      */
     protected function decodeData(Response $response)
     {
