@@ -10,6 +10,7 @@ use MediaNetApi\Request\AbstractRequest;
 class GetLocations extends AbstractRequest {
 
     private $mediaNetMethod = 'track.getLocations';
+    protected $cc;
     protected $mnetIds;
     protected $rights;
 
@@ -50,4 +51,15 @@ class GetLocations extends AbstractRequest {
         return $this;
     }
 
+    public function getCc()
+    {
+        return $this->cc;
+    }
+
+    public function setCc($cc)
+    {
+        $this->cc = $cc;
+        $this->getQuery()->set('cc', $cc);
+        return $this;
+    }
 }

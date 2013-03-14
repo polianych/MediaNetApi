@@ -98,7 +98,7 @@ class MediaNetApi {
         $options = $this->getOptions();
 
         $request->getQuery()->set('format', $options->getFormat());
-        if (method_exists($request, 'setCc')) {
+        if (method_exists($request, 'setCc') && !$request->getCc()) {
             $request->setCc($options->getCc());
         }
         $request->getQuery()->set('apiKey', $options->getApiKey());
