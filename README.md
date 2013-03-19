@@ -14,9 +14,6 @@ Please see: [API Docs](http://www.mndigital.com/MN_Open_API/MN_Open_API_Implemen
 
 Requirements
 ------------
-
-The dependencies for SpeckCommerce are set up as Git submodules so you should not hav
-
 * PHP 5.3.3+
 * [Zend Framework 2](https://github.com/zendframework/zf2) (latest master)
 
